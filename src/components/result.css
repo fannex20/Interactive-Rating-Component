@@ -47,3 +47,39 @@
     line-height: 2.2rem;
     padding-top: 1rem;
 }
+
+@media only screen and (min-width: 1440px) {
+    .resultContainer {
+        width: 412px;
+        border-radius: 30px;
+        padding: 4.5rem 0;
+    }
+
+    .resultContainer img {
+        width: 162px;
+    }
+
+    .selectedContainer {
+        width: 193px;
+        margin-top: 2.2rem;
+    }
+
+    .selectedContainer span {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+    }
+
+    .resultContainer h1 {
+        font-size: 2.8rem;
+        font-weight: 700;
+        padding-top: 3.2rem;
+    }
+
+    .resultContainer p {
+        font-size: 1.rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+        width: 340px;
+    }
+}
